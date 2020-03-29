@@ -2,10 +2,19 @@
   (:require [notespace.v2.note :refer [note note-void note-hiccup note-as-hiccup note-md note-as-md]]
             [notespace.v2.live-reload]))
 
+(note-md :Intro "## Intro")
+
 (note-md
  "This example is inspired by this post:
 https://rviews.rstudio.com/2020/03/05/covid-19-epidemiology-with-r/
-by Tim Churches.")
+by Tim Churches.
+
+The goal here is not to discover anything new, or to offer some new interpretation of the data, but just to demonstrate the use of some relevant tools and libraries.")
+
+(note-md "Libraries used:
+* [tech.ml.dataset](https://github.com/techascent/tech.ml.dataset)
+* [clojisr](https://github.com/scicloj/clojisr)
+* [notespace](https://github.com/scicloj/notespace)")
 
 (note-md :setup "## Setup")
 
